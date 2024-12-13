@@ -17,7 +17,6 @@ function generateRandomNumber() {
         randomNumberEl.innerText = 'Error';
 
         setTimeout(function() {
-            randomNumberEl.innerText = '0';
             randomNumberEl.style.display = 'none';
         }, 1600);
     }
