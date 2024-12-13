@@ -10,7 +10,8 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: rgb(15, 15, 15);
+    background: rgb(29,0,77);
+    background: linear-gradient(159deg, rgba(29,0,77,1) 16%, rgba(9,9,121,1) 100%);
 }
 
 .container {
