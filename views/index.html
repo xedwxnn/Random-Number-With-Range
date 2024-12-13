@@ -10,24 +10,26 @@
 </head>
 <body>
     <div class="container">
-        <div class="minAndMaxContainer">
-            <div class="minContainer">
-                <p>Min:</p>
-                <input id="minNum" type="number" autocomplete="off">
+        <div class="wrapContainer">
+            <div class="minAndMaxContainer">
+                <div class="minContainer">
+                    <p class="minMaxText">Min:</p>
+                    <input id="minNum" type="number" autocomplete="off">
+                </div>
+    
+                <div class="maxContainer">
+                    <p class="minMaxText">Max:</p>
+                    <input id="maxNum" type="number" autocomplete="off">
+                </div>
             </div>
-
-            <div class="maxContainer">
-                <p>Max:</p>
-                <input id="maxNum" type="number" autocomplete="off">
+    
+            <div class="button">
+                <button id="generateBtn">Generate</button>
             </div>
-        </div>
-
-        <div class="button">
-            <button id="generateBtn">Generate</button>
-        </div>
-
-        <div class="numberGenerated">
-            <p id="numberGenerated">0</p>
+    
+            <div class="numberGenerated">
+                <p id="numberGenerated">0</p>
+            </div>
         </div>
     </div>
 </body>
