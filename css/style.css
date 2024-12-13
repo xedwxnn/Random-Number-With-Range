@@ -61,7 +61,7 @@ input:focus {
 
 .button {
     width: 100%;
-    margin: 50px 0px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
@@ -72,7 +72,7 @@ button {
     background-color: rgb(75, 45, 212);
     font-size: 20px;
     font-weight: 550;
-    padding: 10px 25px;
+    padding: 10px 0px;
     border-radius: 10px;
     transition: .3s;
     width: 80%;
@@ -85,9 +85,10 @@ button:hover {
 }
 
 #numberGenerated {
-    margin-top: -20px;
+    margin-top: 30px;
     font-size: 60px;
     font-weight: 500;
+    display: none;
 }
 
 p {
